@@ -1,6 +1,6 @@
 node {
     stage 'configure'
-        def archiveUrl = 'https://www.dropbox.com/s/swughde1mmgcqnb/reeflifesurvey.zip?dl=1'
+        def archiveUrl = 'https://github.com/jhammock/reeflifesurvey/archive/master.zip'
 
     stage 'import'
         sh "wget --quiet https://raw.githubusercontent.com/gimmefreshdata/archive-importer/master/archives.groovy -O archives.groovy"
