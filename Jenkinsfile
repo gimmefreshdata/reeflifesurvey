@@ -1,6 +1,6 @@
 node {
     stage 'configure'
-        def archiveUrl = 'https://www.dropbox.com/s/faxqx2bqf1up1sg/reeflifesurvey.zip?dl=1'
+        def archiveUrl = 'http://editors.eol.org/eol_php_code/applications/content_server/resources/reef_life_survey.tar.gz'
 
     stage 'import'
         sh "wget --quiet https://raw.githubusercontent.com/gimmefreshdata/archive-importer/master/archives.groovy -O archives.groovy"
