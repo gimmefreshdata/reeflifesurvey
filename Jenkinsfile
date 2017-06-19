@@ -1,4 +1,6 @@
 node {
+    agent { label 'spark' }
+    
     stage 'configure'
         def archiveUrl = 'http://editors.eol.org/eol_php_code/applications/content_server/resources/reef_life_survey.zip'
 
